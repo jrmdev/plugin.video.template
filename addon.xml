@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<addon id="plugin.video.template" name="Addon Template" provider-name="jrmdev" version="1.0.0">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.requests" />
+  </requires>
+  <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
+    <provides>video</provides>
+  </extension>
+  <extension library="default.py" point="xbmc.addon.metadata">
+    <summary>Template Video add-on</summary>
+    <description>This is a base addon to build from.</description>
+    <provides>video</provides>
+    <platform>all</platform>
+</extension>
+</addon>

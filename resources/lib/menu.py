@@ -11,7 +11,7 @@ _url = sys.argv[0]
 _handle = int(sys.argv[1])
 
 def make_menu(objects, next='', sort=False):
-    #try:
+    try:
         listing = []
 
         for item in objects:
@@ -60,11 +60,14 @@ def make_menu(objects, next='', sort=False):
             li = xbmcgui.ListItem('Next page')
             listing.append((url, li, True))
 
+        if len(objects) and objects[0].has('content'):
+            xmbcplugin.setContent(_handle, objects[0].content)
+
         if sort:
             xbmcplugin.addSortMethod(_handle, xbmcplugin.SORT_METHOD_LABEL_IGNORE_THE)
 
         xbmcplugin.addDirectoryItems(_handle, listing, len(listing))
         xbmcplugin.endOfDirectory(_handle)
 
-    #except Exception:
-    #    utils.handle_error("Unable to make menu")
+    except Exception:
+        utils.handle_error("Unable to make menu")

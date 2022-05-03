@@ -1,16 +1,67 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<addon id="plugin.video.template" name="Addon Template" provider-name="jrmdev" version="1.0.0">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.requests" />
-  </requires>
-  <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
-    <provides>video</provides>
-  </extension>
-  <extension library="default.py" point="xbmc.addon.metadata">
-    <summary>Template Video add-on</summary>
-    <description>This is a base addon to build from.</description>
-    <provides>video</provides>
-    <platform>all</platform>
-</extension>
-</addon>
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="2.0">
+    <Ad id="138653061-87392301-39627378501">
+        <!-- 001 Video VAST 2.0 - Instream-Typ -->
+        <InLine>
+            <AdSystem><![CDATA[dfp]]></AdSystem>
+            <AdTitle><![CDATA[10x1 - Nestlé Maggi Paprika MaggiRot PreRoll  DV orderId=138653061 lineItemId=87392301 creativeId=39627378501]]></AdTitle>
+            <Description><![CDATA[]]></Description>
+            <Error><![CDATA[http://event.movad.de/c.ount?et=66&ad=1&ci=87392301&c10=39627378501&c9=138653061&c11=in&ho=showroom&c8=11111&c7=26706621&c12=26750541&po=7&us=sim&t=1437137920]]></Error>
+            <Impression id="intern"><![CDATA[http://pubads.g.doubleclick.net/pagead/adview?ai=BoxQt4v1VVYLxNsjZ8QPZ84GYC8X8wfgFAAAAEAEgADgAWMWe58-TAWCDpeGF6BuCARdjYS1wdWItMzY1OTM0OTE1MDEyMDUzNbIBGHd3dy5kY2xrLWRlZmF1bHQtcmVmLmNvbboBCWdmcF9pbWFnZcgBCdoBIGh0dHA6Ly93d3cuZGNsay1kZWZhdWx0LXJlZi5jb20vqQIuKp7FVgGzPsACAuACAOoCFDU3MzEvc2hvd3Jvb20vbWljaGFs-ALy0R6QA4QHmAPIBqgDAdAEkE7gBAGQBgGgBh_YBwA&sigh=VZEnLAzHjUQ&cid=5GhMce4xHJjDn2kbLXLOamxH&template_id=10036821&adurl=]]></Impression>
+            <Impression id="movad"><![CDATA[http://event.movad.de/c.ount?et=1&ad=1&ci=87392301&c10=39627378501&c9=138653061&c11=in&ho=showroom&c8=11111&c7=26706621&c12=26750541&po=7&us=sim&t=1437137920]]></Impression>
+            <Impression id="3rdparty"><![CDATA[]]></Impression>
+            <Impression id="3rdparty2"><![CDATA[]]></Impression>
+            <Impression id="bfp"><![CDATA[]]></Impression>
+            <Impression id="mafo1"><![CDATA[]]></Impression>
+            <Creatives>
+                <Creative>
+                    <Linear>
+                        <Duration><![CDATA[00:00:20]]></Duration>
+                        <TrackingEvents>
+                            <Tracking event="start"><![CDATA[http://event.movad.de/c.ount?et=10&ad=1&ci=87392301&c10=39627378501&c9=138653061&c11=in&ho=showroom&c8=11111&c7=26706621&c12=26750541&po=7&us=sim&t=1437137920]]></Tracking>
+                            <Tracking event="start"><![CDATA[]]></Tracking>
+                            <Tracking event="firstQuartile"><![CDATA[http://event.movad.de/c.ount?et=32&ad=1&ci=87392301&c10=39627378501&c9=138653061&c11=in&ho=showroom&c8=11111&c7=26706621&c12=26750541&po=7&us=sim&t=1437137920]]></Tracking>
+                            <Tracking event="firstQuartile"><![CDATA[]]></Tracking>
+                            <Tracking event="midpoint"><![CDATA[http://event.movad.de/c.ount?et=35&ad=1&ci=87392301&c10=39627378501&c9=138653061&c11=in&ho=showroom&c8=11111&c7=26706621&c12=26750541&po=7&us=sim&t=1437137920]]></Tracking>
+                            <Tracking event="midpoint"><![CDATA[]]></Tracking>
+                            <Tracking event="thirdQuartile"><![CDATA[http://event.movad.de/c.ount?et=37&ad=1&ci=87392301&c10=39627378501&c9=138653061&c11=in&ho=showroom&c8=11111&c7=26706621&c12=26750541&po=7&us=sim&t=1437137920]]></Tracking>
+                            <Tracking event="thirdQuartile"><![CDATA[]]></Tracking>
+                            <Tracking event="complete"><![CDATA[http://event.movad.de/c.ount?et=40&ad=1&ci=87392301&c10=39627378501&c9=138653061&c11=in&ho=showroom&c8=11111&c7=26706621&c12=26750541&po=7&us=sim&t=1437137920]]></Tracking>
+                            <Tracking event="complete"><![CDATA[]]></Tracking>
+                            <Tracking event="mute"><![CDATA[http://event.movad.de/c.ount?et=14&ad=1&ci=87392301&c10=39627378501&c9=138653061&c11=in&ho=showroom&c8=11111&c7=26706621&c12=26750541&po=7&us=sim&t=1437137920]]></Tracking>
+                            <Tracking event="mute"><![CDATA[]]></Tracking>
+                            <Tracking event="unmute"><![CDATA[http://event.movad.de/c.ount?et=15&ad=1&ci=87392301&c10=39627378501&c9=138653061&c11=in&ho=showroom&c8=11111&c7=26706621&c12=26750541&po=7&us=sim&t=1437137920]]></Tracking>
+                            <Tracking event="unmute"><![CDATA[]]></Tracking>
+                            <Tracking event="fullscreen"><![CDATA[http://event.movad.de/c.ount?et=16&ad=1&ci=87392301&c10=39627378501&c9=138653061&c11=in&ho=showroom&c8=11111&c7=26706621&c12=26750541&po=7&us=sim&t=1437137920]]></Tracking>
+                            <Tracking event="fullscreen"><![CDATA[]]></Tracking>
+                            <Tracking event="pause"><![CDATA[http://event.movad.de/c.ount?et=11&ad=1&ci=87392301&c10=39627378501&c9=138653061&c11=in&ho=showroom&c8=11111&c7=26706621&c12=26750541&po=7&us=sim&t=1437137920]]></Tracking>
+                            <Tracking event="pause"><![CDATA[]]></Tracking>
+                            <Tracking event="expand"><![CDATA[http://event.movad.de/c.ount?et=3&ad=1&ci=87392301&c10=39627378501&c9=138653061&c11=in&ho=showroom&c8=11111&c7=26706621&c12=26750541&po=7&us=sim&t=1437137920]]></Tracking>
+                            <Tracking event="collapse"><![CDATA[http://event.movad.de/c.ount?et=4&ad=1&ci=87392301&c10=39627378501&c9=138653061&c11=in&ho=showroom&c8=11111&c7=26706621&c12=26750541&po=7&us=sim&t=1437137920]]></Tracking>
+                            <Tracking event="close"><![CDATA[http://event.movad.de/c.ount?et=4&ad=1&ci=87392301&c10=39627378501&c9=138653061&c11=in&ho=showroom&c8=11111&c7=26706621&c12=26750541&po=7&us=sim&t=1437137920]]></Tracking>
+                            <Tracking event="acceptInvitation"><![CDATA[http://event.movad.de/c.ount?et=20&ad=1&ci=87392301&c10=39627378501&c9=138653061&c11=in&ho=showroom&c8=11111&c7=26706621&c12=26750541&po=7&us=sim&t=1437137920]]></Tracking>
+                        </TrackingEvents>
+                        <VideoClicks>
+                            <ClickThrough><![CDATA[http://adclick.g.doubleclick.net/aclk?sa=L&ai=BoxQt4v1VVYLxNsjZ8QPZ84GYC8X8wfgFAAAAEAEgADgAWMWe58-TAWCDpeGF6BuCARdjYS1wdWItMzY1OTM0OTE1MDEyMDUzNbIBGHd3dy5kY2xrLWRlZmF1bHQtcmVmLmNvbboBCWdmcF9pbWFnZcgBCdoBIGh0dHA6Ly93d3cuZGNsay1kZWZhdWx0LXJlZi5jb20vqQIuKp7FVgGzPsACAuACAOoCFDU3MzEvc2hvd3Jvb20vbWljaGFs-ALy0R6QA4QHmAPIBqgDAdAEkE7gBAGQBgGgBh_YBwA&num=0&cid=5GhMce4xHJjDn2kbLXLOamxH&sig=AOD64_11BIX3Qy84SC9dh4pg0MfGN8TM_A&client=ca-pub-3659349150120535&adurl=http://www.maggi.de]]></ClickThrough>
+                            <ClickTracking id="movad"><![CDATA[http://event.movad.de/c.ount?et=2&ad=1&ci=87392301&c10=39627378501&c9=138653061&c11=in&ho=showroom&c8=11111&c7=26706621&c12=26750541&po=7&us=sim&t=1437137920]]></ClickTracking>
+                            <ClickTracking id="3rdparty"><![CDATA[]]></ClickTracking>
+                        </VideoClicks>
+                        <MediaFiles>
+                            <MediaFile delivery="progressive" bitrate="400" width="0" height="0" type="video/x-flv"><![CDATA[http://ottchy.com/wp-content/uploads/2022/05/ForBiggerEscapes.flv]]></MediaFile>
+                            <MediaFile delivery="progressive" bitrate="400" width="0" height="0" type="video/mp4"><![CDATA[http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4]]></MediaFile>
+                            <MediaFile delivery="progressive" bitrate="400" width="830" height="467" type="mobile/m3u8"><![CDATA[https://anyconv.com/api/action/download/304d532b2cffd7f1ffa0544f95a96e9e/?name=ForBiggerEscapes.m3u8]></MediaFile>
+                            <MediaFile delivery="progressive" bitrate="400" width="830" height="467" type="application/x-mpegURL"><![CDATA[https://anyconv.com/api/action/download/304d532b2cffd7f1ffa0544f95a96e9e/?name=ForBiggerEscapes.m3u8]]></MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+            </Creatives>
+            <Extensions>
+                <Extension type="dfp">
+                    <AdServingData>
+                        <Industry><![CDATA[]]></Industry>
+                    </AdServingData>
+                </Extension>
+            </Extensions>
+        </InLine>
+    </Ad>
+</VAST>
